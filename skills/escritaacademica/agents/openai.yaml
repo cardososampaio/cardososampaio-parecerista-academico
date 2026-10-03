@@ -1,0 +1,4 @@
+interface:
+  display_name: "Escrita acadêmica"
+  short_description: "Redação e revisão em Humanidades e Ciências Sociais"
+  default_prompt: "Use $escritaacademica para trabalhar este texto, respeitando seu gênero, argumento, fontes e voz autoral."

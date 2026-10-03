@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Se você usar esta skill, cite-a conforme abaixo."
+title: "Escrita Acadêmica"
+type: software
+authors:
+  - family-names: "Sampaio"
+    given-names: "Rafael Cardoso"
+version: "1.0.0"
+license: "MIT"
+abstract: "Skill em português para agentes de IA planejarem, redigirem, revisarem, reestruturarem, traduzirem e auditarem escrita acadêmica em Humanidades e Ciências Sociais, com módulos especializados para argumentação, métodos, literatura, integridade de fontes, internacionalização e preservação da voz autoral."
+url: "https://github.com/cardososampaio/skills-academicas/tree/main/skills/escritaacademica"
+date-released: 2026-10-03
