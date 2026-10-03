@@ -2,7 +2,7 @@
 
 Coleção pública em português de **skills para agentes de IA voltadas à pesquisa acadêmica**, desenvolvidas por Rafael Cardoso Sampaio.
 
-O repositório reúne protocolos operacionais para tarefas de leitura, escrita, revisão e avaliação acadêmica. Cada skill fica em sua própria pasta e possui um `SKILL.md` como ponto de entrada. Skills simples podem concentrar todo o protocolo nesse arquivo. Skills mais extensas podem incluir módulos de referência, assets, scripts e metadados auxiliares que devem permanecer junto ao pacote.
+O repositório reúne protocolos operacionais para busca bibliográfica, revisão de literatura, leitura, escrita e avaliação acadêmica, com atenção à pesquisa brasileira e às Humanidades e Ciências Sociais. Cada skill fica em sua própria pasta e possui um `SKILL.md` como ponto de entrada. Skills simples podem concentrar todo o protocolo nesse arquivo. Skills mais extensas podem incluir módulos de referência, assets, scripts e metadados auxiliares que devem permanecer junto ao pacote.
 
 ## Skills disponíveis
 
@@ -12,6 +12,7 @@ O repositório reúne protocolos operacionais para tarefas de leitura, escrita, 
 | [Fichamento Acadêmico](skills/fichamento-academico/) | Produzir fichamentos densos, verificáveis e reutilizáveis | 3.0.0 |
 | [Melhorar Prompts Acadêmicos](skills/melhorar-prompts-academicos/) | Criar, avaliar e reescrever prompts para tarefas acadêmicas | 1.0.0 |
 | [Escrita Acadêmica](skills/escritaacademica/) | Planejar, redigir, revisar, reestruturar, traduzir e auditar textos acadêmicos | 1.0.0 |
+| [Busca Acadêmica](skills/busca-academica/) | Buscar e revisar literatura brasileira e internacional, com CSV, BibTeX e relatórios | 1.0.0 |
 
 ### Parecerista Acadêmico
 
@@ -97,6 +98,29 @@ Principais recursos
 **Pasta** [`skills/escritaacademica/`](skills/escritaacademica/)  
 **Arquivo principal** [`SKILL.md`](skills/escritaacademica/SKILL.md)
 
+### Busca Acadêmica
+
+Skill para recuperar e revisar literatura acadêmica com prioridade à pesquisa brasileira e busca em português, inglês e outros idiomas definidos pelo usuário.
+
+Principais recursos
+
+- busca simples com revisão breve e exportações bibliográficas completas disponíveis
+- modo aprofundado com relatório de 2.000 a 5.000 palavras analíticas, resumo executivo, tabela resumo e até 20 referências destacadas
+- OpenAlex, SciELO e DOAJ como fontes iniciais, seguidas de Crossref e Semantic Scholar
+- acionamento de integrações acadêmicas disponíveis, como Consensus, Scite e SciSpace
+- deduplicação conservadora, procedência dos registros, controle de versões e pendências de metadados
+- CSV, BibTeX, JSON e CSL JSON, bibliografia completa, matriz de evidências e manifesto de busca
+- gráficos de produção por ano e mapas de calor, acompanhados dos dados em CSV e dos limites de interpretação
+- referências em APA ou ABNT conforme os idiomas e a preferência do usuário
+- BDTD apenas mediante pedido explícito e PDFs somente após aceite
+- recuperação e importação opcionais com easyScieloPack, sem exigir R para o fluxo principal
+- scripts centrais em Python 3.10 ou superior, sem dependências externas obrigatórias, e 75 testes automatizados
+
+**Versão** 1.0.0  
+**Pasta** [`skills/busca-academica/`](skills/busca-academica/)  
+**Arquivo principal** [`SKILL.md`](skills/busca-academica/SKILL.md)  
+**Uso e limites** [`README.md`](skills/busca-academica/README.md)
+
 ## Estrutura
 
 ```text
@@ -117,14 +141,23 @@ rcs-skills-academicas/
     │   ├── SKILL.md
     │   ├── README.md
     │   └── CITATION.cff
-    └── escritaacademica/
+    ├── escritaacademica/
+    │   ├── SKILL.md
+    │   ├── README.md
+    │   ├── CITATION.cff
+    │   ├── agents/
+    │   ├── assets/
+    │   ├── references/
+    │   └── scripts/
+    └── busca-academica/
         ├── SKILL.md
         ├── README.md
         ├── CITATION.cff
         ├── agents/
         ├── assets/
         ├── references/
-        └── scripts/
+        ├── scripts/
+        └── tests/
 ```
 
 ## Instalação
@@ -144,6 +177,7 @@ Exemplos
 .agents/skills/fichamento-academico/
 .agents/skills/melhorar-prompts-academicos/
 .agents/skills/escritaacademica/
+.agents/skills/busca-academica/
 ```
 
 Não copie apenas o `SKILL.md` quando a pasta contiver `references`, `assets`, `scripts`, `agents` ou outros arquivos utilizados pelo protocolo.

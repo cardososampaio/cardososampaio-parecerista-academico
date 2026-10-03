@@ -5,8 +5,8 @@ type: software
 authors:
   - family-names: "Sampaio"
     given-names: "Rafael Cardoso"
-version: "1.2.0"
+version: "1.3.0"
 license: "MIT"
-abstract: "Coleção pública em português de skills para agentes de IA voltadas à pesquisa acadêmica, incluindo protocolos para pareceres, fichamentos, criação e melhoria de prompts e escrita acadêmica em Humanidades e Ciências Sociais."
+abstract: "Coleção pública em português de skills para agentes de IA voltadas à pesquisa acadêmica, incluindo busca bibliográfica e revisão de literatura brasileira e internacional, pareceres, fichamentos, criação e melhoria de prompts e escrita acadêmica em Humanidades e Ciências Sociais."
 url: "https://github.com/cardososampaio/rcs-skills-academicas"
 date-released: 2026-10-03

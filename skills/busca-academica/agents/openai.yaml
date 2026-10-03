@@ -1,0 +1,4 @@
+interface:
+  display_name: "Busca acadêmica"
+  short_description: "Busca brasileira e internacional com revisão, CSV e BibTeX"
+  default_prompt: "Use $busca-academica para pesquisar literatura acadêmica com prioridade brasileira e entregar revisão, CSV e BibTeX."

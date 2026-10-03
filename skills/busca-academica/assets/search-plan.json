@@ -1,0 +1,24 @@
+{
+  "mode": "deep",
+  "question": "SUBSTITUIR pela pergunta acordada com o usuário",
+  "config": {
+    "year_start": 2024,
+    "year_end": 2026,
+    "languages": ["pt", "en"],
+    "types": ["article", "review"],
+    "citation_style": "auto",
+    "regional_scope": "Brazil priority, international comparison",
+    "areas": ["SUBSTITUIR"],
+    "study_kinds": ["empirical", "theoretical"],
+    "max_per_query": 200,
+    "bdtd_requested": false
+  },
+  "queries": [
+    {"source": "openalex", "query": "\"inteligência artificial\" AND democracia", "language": "pt"},
+    {"source": "openalex", "query": "\"artificial intelligence\" AND democracy", "language": "en"},
+    {"source": "scielo", "query": "\"inteligência artificial\" AND democracia", "language": "pt"},
+    {"source": "doaj", "query": "(title:\"artificial intelligence\" OR abstract:\"artificial intelligence\") AND (title:democracy OR abstract:democracy)", "language": "en"},
+    {"source": "crossref", "query": "artificial intelligence democracy", "language": "en"},
+    {"source": "semantic_scholar", "query": "\"artificial intelligence\" + democracy", "language": "en"}
+  ]
+}

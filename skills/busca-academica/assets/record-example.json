@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Título real do documento recuperado",
+    "authors": [{"name": "Nome conforme a fonte", "given": "", "family": "", "orcid": ""}],
+    "year": null,
+    "document_type": "article",
+    "container_title": "",
+    "doi": "",
+    "url": "",
+    "pdf_urls": [],
+    "abstract": "",
+    "language": "",
+    "sources": ["nome_da_fonte_real"],
+    "source_ids": {},
+    "reading_level": "metadata",
+    "selection": "unassessed",
+    "study_kind": "unassessed",
+    "themes": [],
+    "provenance": [],
+    "notes": ["Este arquivo documenta o formato. Não utilizar seu conteúdo como referência ou resultado de busca."]
+  }
+]

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Se você usar esta skill, cite este item."
+title: "Busca Acadêmica"
+type: software
+authors:
+  - family-names: "Sampaio"
+    given-names: "Rafael Cardoso"
+version: "1.0.0"
+license: "MIT"
+abstract: "Skill em português para agentes de IA buscarem e revisarem literatura acadêmica brasileira e internacional, com modos simples e aprofundado, referências verificáveis, exportações CSV e BibTeX, matriz de evidências e gráficos."
+url: "https://github.com/cardososampaio/rcs-skills-academicas/tree/main/skills/busca-academica"
+repository-code: "https://github.com/cardososampaio/rcs-skills-academicas"
+date-released: 2026-10-03
