@@ -47,6 +47,28 @@ Principais recursos:
 **Pasta:** [`skills/fichamento-academico/`](skills/fichamento-academico/)  
 **Arquivo principal:** [`SKILL.md`](skills/fichamento-academico/SKILL.md)
 
+### Melhorar Prompts Acadêmicos
+
+Skill para avaliar, criar e reescrever prompts destinados a tarefas de pesquisa, leitura, escrita, revisão, tradução, análise e ensino acadêmico.
+
+Principais recursos:
+
+- identifica o resultado desejado antes de reformular a instrução
+- preserva contexto, restrições, nomes, recortes e preferências já fornecidos
+- corrige apenas problemas que realmente afetem a execução
+- evita transformar prompts simples em estruturas desnecessariamente longas
+- pergunta somente quando uma lacuna altera materialmente a tarefa
+- usa campos editáveis quando for possível avançar sem interromper o usuário
+- adapta as instruções ao tipo de tarefa acadêmica
+- distingue revisão linguística, reorganização e alteração de conteúdo
+- não escolhe silenciosamente teoria, método, período, país, fontes ou periódico
+- inclui regras contra fabricação de dados, citações, referências e capacidades inexistentes
+- produz, por padrão, avaliação rápida, prompt melhorado e explicação das mudanças
+
+**Versão:** 1.0.0  
+**Pasta:** [`skills/melhorar-prompts-academicos/`](skills/melhorar-prompts-academicos/)  
+**Arquivo principal:** [`SKILL.md`](skills/melhorar-prompts-academicos/SKILL.md)
+
 ## Estrutura
 
 ```text
@@ -59,7 +81,11 @@ skills-academicas/
     │   ├── SKILL.md
     │   ├── README.md
     │   └── CITATION.cff
-    └── fichamento-academico/
+    ├── fichamento-academico/
+    │   ├── SKILL.md
+    │   ├── README.md
+    │   └── CITATION.cff
+    └── melhorar-prompts-academicos/
         ├── SKILL.md
         ├── README.md
         └── CITATION.cff
@@ -80,6 +106,7 @@ Exemplo:
 ```text
 .agents/skills/parecerista-academico/
 .agents/skills/fichamento-academico/
+.agents/skills/melhorar-prompts-academicos/
 ```
 
 Cada uma dessas pastas deve preservar seu respectivo `SKILL.md`.
