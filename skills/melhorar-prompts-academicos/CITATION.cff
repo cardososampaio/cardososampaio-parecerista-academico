@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Se você usar esta skill, cite-a conforme abaixo."
+title: "Melhorar Prompts Acadêmicos"
+type: software
+authors:
+  - family-names: "Sampaio"
+    given-names: "Rafael Cardoso"
+version: "1.0.0"
+license: "MIT"
+abstract: "Skill em português para avaliar, criar e reescrever prompts destinados a tarefas acadêmicas, preservando intenção, contexto e restrições e adaptando a instrução ao tipo de atividade."
+url: "https://github.com/cardososampaio/skills-academicas/tree/main/skills/melhorar-prompts-academicos"
+date-released: 2026-10-03
