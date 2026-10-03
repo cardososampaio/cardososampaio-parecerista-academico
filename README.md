@@ -100,7 +100,7 @@ Principais recursos
 ## Estrutura
 
 ```text
-skills-academicas/
+rcs-skills-academicas/
 ├── README.md
 ├── CITATION.cff
 ├── LICENSE
@@ -132,7 +132,7 @@ skills-academicas/
 Clone o repositório
 
 ```bash
-git clone --depth 1 https://github.com/cardososampaio/skills-academicas.git
+git clone --depth 1 https://github.com/cardososampaio/rcs-skills-academicas.git
 ```
 
 Depois copie a pasta inteira da skill desejada para o diretório de skills do seu agente.
@@ -174,7 +174,7 @@ As skills organizam o procedimento de trabalho do agente. Elas não transformam 
 
 Para citar a coleção
 
-> Sampaio, Rafael Cardoso. *Skills Acadêmicas*. Coleção de skills para agentes de IA. 2026. https://github.com/cardososampaio/skills-academicas
+> Sampaio, Rafael Cardoso. *Skills Acadêmicas*. Coleção de skills para agentes de IA. 2026. https://github.com/cardososampaio/rcs-skills-academicas
 
 Para citar uma skill específica, consulte o `CITATION.cff` dentro da pasta correspondente.
 

@@ -8,5 +8,5 @@ authors:
 version: "1.0.0"
 license: "MIT"
 abstract: "Skill em português para avaliar, criar e reescrever prompts destinados a tarefas acadêmicas, preservando intenção, contexto e restrições e adaptando a instrução ao tipo de atividade."
-url: "https://github.com/cardososampaio/skills-academicas/tree/main/skills/melhorar-prompts-academicos"
+url: "https://github.com/cardososampaio/rcs-skills-academicas/tree/main/skills/melhorar-prompts-academicos"
 date-released: 2026-10-03

@@ -8,5 +8,5 @@ authors:
 version: "1.2.0"
 license: "MIT"
 abstract: "Coleção pública em português de skills para agentes de IA voltadas à pesquisa acadêmica, incluindo protocolos para pareceres, fichamentos, criação e melhoria de prompts e escrita acadêmica em Humanidades e Ciências Sociais."
-url: "https://github.com/cardososampaio/skills-academicas"
+url: "https://github.com/cardososampaio/rcs-skills-academicas"
 date-released: 2026-10-03
