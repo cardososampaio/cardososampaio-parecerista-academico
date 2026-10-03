@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Se você usar esta skill, cite-a conforme abaixo."
+title: "Fichamento Acadêmico"
+type: software
+authors:
+  - family-names: "Sampaio"
+    given-names: "Rafael Cardoso"
+version: "3.0.0"
+license: "MIT"
+abstract: "Skill em português para agentes de IA produzirem fichamentos acadêmicos densos, verificáveis, rastreáveis e reutilizáveis, com leitura integral, localização recuperável, cobertura por unidades, módulos por tipo de texto e separação entre texto, inferência e crítica."
+url: "https://github.com/cardososampaio/skills-academicas/tree/main/skills/fichamento-academico"
+date-released: 2026-10-03
