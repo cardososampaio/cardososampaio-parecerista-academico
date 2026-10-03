@@ -30,7 +30,6 @@ Principais recursos
 - reconciliação e classificação de gravidade
 - separação entre parecer aos autores e recomendação confidencial ao editor
 
-**Versão** 2.0.0  
 **Pasta** [`skills/parecerista-academico/`](skills/parecerista-academico/)  
 **Arquivo principal** [`SKILL.md`](skills/parecerista-academico/SKILL.md)
 
@@ -50,8 +49,7 @@ Principais recursos
 - crítica interna separada de crítica contextual
 - registro obrigatório de lacunas, dúvidas e limitações do arquivo
 - controle contra fabricação de páginas, citações, referências, dados e métodos
-
-**Versão** 3.0.0  
+ 
 **Pasta** [`skills/fichamento-academico/`](skills/fichamento-academico/)  
 **Arquivo principal** [`SKILL.md`](skills/fichamento-academico/SKILL.md)
 
@@ -72,8 +70,7 @@ Principais recursos
 - não escolhe silenciosamente teoria, método, período, país, fontes ou periódico
 - inclui regras contra fabricação de dados, citações, referências e capacidades inexistentes
 - produz, por padrão, avaliação rápida, prompt melhorado e explicação das mudanças
-
-**Versão** 1.0.0  
+ 
 **Pasta** [`skills/melhorar-prompts-academicos/`](skills/melhorar-prompts-academicos/)  
 **Arquivo principal** [`SKILL.md`](skills/melhorar-prompts-academicos/SKILL.md)
 
@@ -94,7 +91,6 @@ Principais recursos
 - casos de avaliação comportamental para manutenção e testes
 - regras explícitas contra fabricação de dados, referências, páginas, citações, procedimentos e resultados
 
-**Versão** 1.0.0  
 **Pasta** [`skills/escritaacademica/`](skills/escritaacademica/)  
 **Arquivo principal** [`SKILL.md`](skills/escritaacademica/SKILL.md)
 
